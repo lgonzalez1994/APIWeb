@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIWeb", "APIWeb\APIWeb.csproj", "{6A25EAD2-B751-4223-B044-5088E44844BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIWeb.Tests", "APIWeb.Tests\APIWeb.Tests.csproj", "{049DEB7B-0459-4AFC-9355-57FA8CC8082B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A25EAD2-B751-4223-B044-5088E44844BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A25EAD2-B751-4223-B044-5088E44844BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A25EAD2-B751-4223-B044-5088E44844BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A25EAD2-B751-4223-B044-5088E44844BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049DEB7B-0459-4AFC-9355-57FA8CC8082B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049DEB7B-0459-4AFC-9355-57FA8CC8082B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049DEB7B-0459-4AFC-9355-57FA8CC8082B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA67D53F-69E7-4FD3-8E70-4019C1355520}
+	EndGlobalSection
+EndGlobal
