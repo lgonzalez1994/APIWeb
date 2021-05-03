@@ -89,7 +89,7 @@ namespace APIWeb.Controllers
                 // Guardar Datos 
                 string PathJson = @"D:\resultados.json";
                 string PathCsv =  @"D:\ratio.csv";
-                File.WriteAllText(PathJson, resultado.ToString());
+                File.WriteAllText(PathJson, JsonConvert.SerializeObject(resultado));
                 File.WriteAllText(PathCsv, txtRatio);
 
                 return Ok(resultado);
